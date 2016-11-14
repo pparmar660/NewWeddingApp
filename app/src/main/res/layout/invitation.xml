@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.oddeven.solution.newweddingapp.home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#ee234e"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/couple_name"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        android:orientation="vertical"
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:background="#f0e0ca"
+            android:src="@mipmap/invitaon_tob_baner"
+            android:id="@+id/imageView" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="43"
+            android:background="#fe6464"
+            >
+
+            <ImageView
+                android:id="@+id/name"
+                android:src="@mipmap/couple_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="44dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/mesage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/White"
+                android:padding="5dp"
+                android:gravity="center"
+                android:text="We shall be privileged to have you in one the most auspicious movements of our life"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/name"
+                android:layout_alignParentStart="true" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:background="#ff7a7a"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/White"
+                android:padding="5dp"
+                android:gravity="center"
+                android:text="04 Dec 2016"
+              android:layout_centerInParent="true"
+                android:textSize="20sp"/>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

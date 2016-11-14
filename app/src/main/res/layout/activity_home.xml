@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/background"
+    tools:context="com.oddeven.solution.newweddingapp.home">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#f51470"
+        android:layout_height="wrap_content">
+         <TextView
+             android:text="@string/couple_name"
+             android:textColor="#fff"
+             android:textSize="20sp"
+             android:padding="10dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="100"
+        android:orientation="vertical"
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="47"
+            android:src="@mipmap/heart_couple"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+             android:layout_weight="53"
+            >
+            <com.szugyi.circlemenu.view.CircleLayout
+                android:id="@+id/circle_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <include layout="@layout/menu_items" />
+            </com.szugyi.circlemenu.view.CircleLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:background="@drawable/circle"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="40"
+                    android:textColor="@color/White"
+                    android:textSize="20sp"
+                    android:id="@+id/textView" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Days"
+
+                    android:textColor="@color/White"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
