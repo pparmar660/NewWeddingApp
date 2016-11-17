@@ -1,4 +1,4 @@
-package com.oddeven.solution.newweddingapp;
+package com.mobileDev.weddingApp.newweddingapp;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -41,7 +41,15 @@ public class home extends AppCompatActivity implements View.OnClickListener {
                  i=new Intent(getApplicationContext(),MyLocation.class);
                 startActivity(i);
                 break;
+            case R.id.calenderView :
+                i=new Intent(getApplicationContext(),MyEvents.class);
+                startActivity(i);
+                break;
 
+            case R.id.galleryView :
+                i=new Intent(getApplicationContext(),MyGallery.class);
+                startActivity(i);
+                break;
 
 
         }

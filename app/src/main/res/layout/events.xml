@@ -4,10 +4,24 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#f51470"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/couple_name"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="#EAE7DB"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/eventpage_back1"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:weightSum="100">
@@ -15,7 +29,7 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="40"
+            android:layout_weight="50"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -28,37 +42,48 @@
                 android:textColor="@color/colorAccent" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:padding="10dp"
                 android:background="#E3DCD4"
-                android:text="04 Dec 2016"
+                android:text="04 Dec 2016, 8:15 PM"
                 android:textColor="@color/colorAccent" />
 
         </LinearLayout>
-        <LinearLayout
+
+        <RelativeLayout
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="40"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+           >
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:layout_centerInParent="true"
                 android:text="Dinner"
                 android:textSize="24dp"
+
                 android:textColor="@color/colorAccent" />
 
+            <ImageView
+                android:id="@+id/locaionMarker1"
+                android:src="@mipmap/location_marker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
 
-        </LinearLayout>
+
+        </RelativeLayout>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:background="#A09994"
+        android:background="@mipmap/eventpage_back2"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:weightSum="100">
@@ -66,7 +91,7 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="40"
+            android:layout_weight="50"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -79,37 +104,48 @@
                 android:textColor="#ffffff" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:padding="10dp"
-                android:background="#fdfdfd"
-                android:text="04 Dec 2016"
-                android:textColor="#000" />
+                android:background="#fff"
+                android:text="04 Dec 2016, 8:15 PM"
+                android:textColor="@color/colorAccent"
+                android:id="@+id/textView2" />
 
         </LinearLayout>
-        <LinearLayout
+
+        <RelativeLayout
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="40"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            >
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:layout_centerInParent="true"
                 android:text="Dinner"
                 android:textSize="24dp"
-                android:textColor="#ffffff" />
+
+                android:textColor="#fff" />
+
+            <ImageView
+                android:id="@+id/locaionMarker2"
+                android:src="@mipmap/location_marker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
 
 
-        </LinearLayout>
+        </RelativeLayout>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:background="#EAE7DB"
+        android:background="@mipmap/eventpage_back1"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:weightSum="100">
@@ -117,7 +153,7 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="40"
+            android:layout_weight="50"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -130,39 +166,42 @@
                 android:textColor="@color/colorAccent" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:padding="10dp"
                 android:background="#E3DCD4"
-                android:text="04 Dec 2016"
+                android:text="04 Dec 2016, 8:15 PM"
                 android:textColor="@color/colorAccent" />
 
         </LinearLayout>
-        <LinearLayout
+
+        <RelativeLayout
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="40"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            >
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center"
+                android:layout_centerInParent="true"
                 android:text="Dinner"
                 android:textSize="24dp"
+
                 android:textColor="@color/colorAccent" />
 
+            <ImageView
+                android:id="@+id/locaionMarker3"
+                android:src="@mipmap/location_marker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true" />
 
-        </LinearLayout>
+
+        </RelativeLayout>
     </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#9C9C9C"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-       >
-    </LinearLayout>
+
 </LinearLayout>

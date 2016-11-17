@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
 
-    tools:context="com.oddeven.solution.newweddingapp.home">
+    tools:context="com.oddeven.solution.newweddingapp.com.mobileDev.weddingApp.newweddingapp.home">
 
     <RelativeLayout
         android:layout_width="match_parent"

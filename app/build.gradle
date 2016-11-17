@@ -4,7 +4,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
     defaultConfig {
-        applicationId "com.oddeven.solution.newweddingapp"
+        applicationId "com.mobileDev.weddingApp.newweddingapp"
         minSdkVersion 18
         targetSdkVersion 24
         versionCode 1
@@ -26,4 +26,5 @@ dependencies {
     compile 'com.google.android.gms:play-services-maps:8.4.0'
     compile 'com.google.android.gms:play-services-location:8.4.0'
     compile project(':ViewHelperLib')
+    compile project(':library')
 }

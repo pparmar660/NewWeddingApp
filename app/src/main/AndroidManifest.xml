@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.oddeven.solution.newweddingapp">
+    package="com.mobileDev.weddingApp.newweddingapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -16,8 +16,10 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/map_key"/>
-        <activity android:name=".home">
+            android:value="@string/map_key"
+           />
+        <activity android:name="com.mobileDev.weddingApp.newweddingapp.home"
+            android:screenOrientation="portrait">
 
 
             <intent-filter>
@@ -27,8 +29,15 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Invitation"/>
-        <activity android:name=".MyLocation"/>
+        <activity android:name="com.mobileDev.weddingApp.newweddingapp.Invitation"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.mobileDev.weddingApp.newweddingapp.MyLocation"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.mobileDev.weddingApp.newweddingapp.MyEvents"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MyGallery"
+            android:screenOrientation="landscape"/>
     </application>
 
 </manifest>

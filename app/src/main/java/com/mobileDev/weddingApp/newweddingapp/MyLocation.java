@@ -1,4 +1,4 @@
-package com.oddeven.solution.newweddingapp;
+package com.mobileDev.weddingApp.newweddingapp;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -145,7 +145,7 @@ public class MyLocation extends FragmentActivity implements OnMapReadyCallback, 
 
         MarkerOptions mp = new MarkerOptions();
         mp.position(originLatLong);
-        mp.title("my position");
+        mp.title("You are here");
         mp.icon(BitmapDescriptorFactory.fromResource(R.mipmap.my_location_icon));
         mMap.addMarker(mp);
 

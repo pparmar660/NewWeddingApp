@@ -1,4 +1,4 @@
-package com.oddeven.solution.newweddingapp;
+package com.mobileDev.weddingApp.newweddingapp;
 
 import com.google.android.gms.maps.model.LatLng;
 
