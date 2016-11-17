@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\Parvesh\\Desktop\\Wedding\\NewWeddingApp\\library\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 462,
+                    "endColumn": 51,
+                    "endOffset": 509
+                },
+                "from": {
+                    "file": "C:\\Users\\Parvesh\\Desktop\\Wedding\\NewWeddingApp\\library\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 462,
+                        "endColumn": 51,
+                        "endOffset": 509
+                    }
+                }
+            }
+        ]
+    }
+]
