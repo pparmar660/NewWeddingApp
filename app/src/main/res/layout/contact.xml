@@ -1,6 +1,201 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5046e"
+    android:orientation="vertical">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#f51470"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/couple_name"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="#f11d45"
+        android:layout_height="2dp"></View>
+
+
+
+
+
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/groom"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/groom"/>
+
+            <TextView
+                android:id="@+id/groomName"
+                android:layout_width="wrap_content"
+                android:textColor="@color/White"
+                android:textSize="18sp"
+                android:text="Mr.Parvendra "
+                android:paddingLeft="2dp"
+                android:layout_below="@id/groom"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_toRightOf="@id/groom"
+                android:layout_width="match_parent"
+                android:textColor="@color/White"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:text="Please join us for the celebration of love, friendship, laughter and family."
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/groomNumber"
+                android:layout_width="wrap_content"
+                android:textColor="@color/White"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/groomName"
+                android:text="+919896798967 "
+                android:paddingLeft="18dp"
+                android:layout_below="@id/groom"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/call_now"
+                android:layout_alignBottom="@+id/groomName"
+                android:layout_marginRight="10dp"
+                android:layout_alignParentRight="true"></ImageView>
+        </RelativeLayout>
+
+
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:background="@color/White"
+        android:layout_height="2dp"></View>
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/brother"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/brother"/>
+
+        <TextView
+            android:id="@+id/brotherName"
+            android:layout_width="wrap_content"
+            android:textColor="@color/White"
+            android:textSize="18sp"
+            android:text="Mr.Shashank "
+            android:paddingLeft="2dp"
+            android:layout_below="@id/brother"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_toRightOf="@id/brother"
+            android:layout_width="match_parent"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            android:layout_marginLeft="13dp"
+            android:layout_centerVertical="true"
+            android:text="Its my great pleasure to invite you and your family on the auspicious occasion of my Sister's Wedding"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/brotherNumber"
+            android:layout_width="wrap_content"
+            android:textColor="@color/White"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/brotherName"
+            android:text="+918967989678 "
+            android:paddingLeft="18dp"
+            android:layout_below="@id/brother"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/call_now"
+            android:layout_alignBottom="@+id/brotherName"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true">
+
+        </ImageView>
+    </RelativeLayout>
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:background="@color/White"
+        android:layout_height="2dp"></View>
+
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/father"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/father"/>
+
+        <TextView
+            android:id="@+id/fatherName"
+            android:layout_width="wrap_content"
+            android:textColor="@color/White"
+            android:textSize="18sp"
+            android:text="Mr.Shashank "
+            android:paddingLeft="2dp"
+            android:layout_below="@id/father"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_toRightOf="@id/father"
+            android:layout_width="match_parent"
+            android:textColor="@color/White"
+            android:textSize="16sp"
+            android:layout_marginLeft="13dp"
+            android:layout_centerVertical="true"
+            android:text="Its my great pleasure to invite you and your family on the auspicious occasion of my Sister's Wedding"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/fatherNumber"
+            android:layout_width="wrap_content"
+            android:textColor="@color/White"
+            android:textSize="20sp"
+            android:layout_toRightOf="@id/fatherName"
+            android:text="+7823737373 "
+            android:paddingLeft="18dp"
+            android:layout_below="@id/father"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/call_now"
+            android:layout_alignBottom="@+id/fatherName"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true">
+
+        </ImageView>
+    </RelativeLayout>
 </LinearLayout>

@@ -38,6 +38,8 @@
             android:screenOrientation="portrait"/>
         <activity android:name=".MyGallery"
             android:screenOrientation="landscape"/>
+        <activity android:name=".MyContact"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

@@ -52,6 +52,12 @@ public class home extends AppCompatActivity implements View.OnClickListener {
                 break;
 
 
+            case R.id.contactView :
+                i=new Intent(getApplicationContext(),MyContact.class);
+                startActivity(i);
+                break;
+
+
         }
     }
 }
