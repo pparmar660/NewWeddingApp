@@ -184,8 +184,6 @@ public class MyLocation extends FragmentActivity implements OnMapReadyCallback, 
         }
     }
 
-
-
     @Override
     public void onConnectionSuspended(int i) {
 

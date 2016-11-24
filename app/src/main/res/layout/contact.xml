@@ -64,12 +64,13 @@
                 android:textColor="@color/White"
                 android:textSize="20sp"
                 android:layout_toRightOf="@id/groomName"
-                android:text="+919896798967 "
+                android:text="+918750779339"
                 android:paddingLeft="18dp"
                 android:layout_below="@id/groom"
                 android:layout_height="wrap_content" />
 
             <ImageView
+                android:id="@+id/callGroom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@mipmap/call_now"
@@ -124,20 +125,20 @@
             android:textColor="@color/White"
             android:textSize="20sp"
             android:layout_toRightOf="@id/brotherName"
-            android:text="+918967989678 "
+            android:text="+919627711140"
             android:paddingLeft="18dp"
             android:layout_below="@id/brother"
             android:layout_height="wrap_content" />
 
         <ImageView
+            android:id="@+id/callBrother"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/call_now"
             android:layout_alignBottom="@+id/brotherName"
             android:layout_marginRight="10dp"
-            android:layout_alignParentRight="true">
+            android:layout_alignParentRight="true"/>
 
-        </ImageView>
     </RelativeLayout>
     <View
         android:layout_marginTop="5dp"
@@ -183,12 +184,13 @@
             android:textColor="@color/White"
             android:textSize="20sp"
             android:layout_toRightOf="@id/fatherName"
-            android:text="+7823737373 "
+            android:text="+919012358084"
             android:paddingLeft="18dp"
             android:layout_below="@id/father"
             android:layout_height="wrap_content" />
 
         <ImageView
+            android:id="@+id/callFather"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@mipmap/call_now"
